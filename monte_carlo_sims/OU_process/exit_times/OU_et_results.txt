@@ -1,0 +1,42 @@
+SAFE SET 1: x between [1,10]
+
+starting_state = [5.0, 0.0]
+
+params 1
+
+sigma, alpha = 1
+without time limit
+RUNTIME:  2264.411069869995
+1.4822435666666567 0.2565444235752686
+
+with time limit
+RUNTIME:  2260.2658817768097
+first moment 1.4838097833333233 
+second moment 2.458922346583293
+
+#####################################################
+
+params 2
+
+alpha = 0.765
+sigma = 2.5
+first moment 1.4799425833333213 
+second moment 3.1580260517499297
+
+
+#####################################################
+
+params 3
+alpha = 0.763
+sigma = 2.5
+RUNTIME:  2224.336530447006
+first moment 1.4858227999999876 
+second moment 3.189939546833261
+
+
+
+
+
+
+
+

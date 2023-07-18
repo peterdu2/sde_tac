@@ -1,0 +1,57 @@
+Spring Mass Damper:
+
+Reduced Constraint SDP:
+    System parameters:
+        ks = 5.
+        ms = 1.
+        kc = 1.
+
+    Safe set:
+        x_lower = -2.5
+        x_upper = 0.0
+
+    Other params:
+        T = 5.
+        dt scale = 0.1*dt
+        scs_eps = 1e-4
+        scale = 10
+
+    ALL: iteration limit = 600K
+
+    Simulation: 
+        E[t] = 9.81008
+
+    M = 4:
+        Maximization: Does not converge  *M=4 likely too small as equality constraint polynomial has term t^2x^2
+        Minimization = 0.11550122281087248          Runtime: 28.737637042999268                             # eps 2e-4, scale = 10
+        Variables: 1206, Constraints 1013
+
+    M = 6:
+        Maximization = 40.745670539829945           Runtime: 1026.7971093654633                             # eps 1e-3, scale = 5
+        Minimization = 2.147492556354711            Runtime: 200.51076984405518          Avg = 613.65       # eps 2e-4, scale = 10
+        Variables: 8078, Constraints: 7446
+
+    M = 8:
+        Maximization = 10.955507405133309           Runtime: 2259.5412480831146                             # eps 1e-3, scale = 10
+        Minimization = 3.2088145317727927           Runtime: 2415.065901994705           Avg = 2337.30      # eps 1e-4, scale = 10
+        Variables: 40598, Constraints: 39263
+
+    M = 10:
+        Maximization = 9.874556609474261            Runtime: 36855.53692865372                              # eps 1.75e-4, scale = 5
+        Minimization = 4.602007722302781            Runtime: 6143.047959089279           Avg =              # eps 1e-3, scale = 10
+        Variables: 164766, Constraints: 163906
+
+
+
+Original Constraint SDP:
+    Same system parameters
+
+    M = 4:
+        Maximization = DNC                                                                                  # eps 1e-4, scale = 10
+        Minimization = 0.4741618599174781           Runtime: 37.75288414955139                              # eps 2e-4, scale = 10
+
+    M = 6: Does not converge        max at 1e-3, min at 2e-4, scale = 10
+
+    M = 8: Does not converge        max at 1e-3, min at 1e-4, scale = 10
+
+    M = 10: Does not converge       max at 1.75e-4, min at 1e-3, scale = 10

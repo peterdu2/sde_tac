@@ -1,0 +1,46 @@
+M = 6
+Original constriants: 
+    Runtime:            150.85553812980652
+    Minimization:       1.5474103831503978
+
+    Runtime:            283.5989692211151
+    Maximization:       49.33102433014982
+
+Reduced Constraints:
+    Runtime:            103.45322751998901
+    Minimization:       1.5548941129049112
+
+    Runtime:            242.70268487930298
+    Maximization:       49.25169397755482
+
+
+M = 8
+Original constriants: 
+    Runtime:            1624.9232113361359
+    Minimization:       2.322479122532744
+
+    Runtime:            
+    Maximization:       
+
+Reduced Constraints:
+    Runtime:            1169.3769688606262
+    Minimization:       2.399081908294106
+
+    Runtime:            
+    Maximization:       
+
+
+M = 10
+Original constriants: 
+    Runtime:            1624.9232113361359
+    Minimization:       2.322479122532744
+
+    Runtime:            
+    Maximization:       
+
+Reduced Constraints:
+    Runtime:            1169.3769688606262
+    Minimization:       2.399081908294106
+
+    Runtime:            
+    Maximization:  

@@ -1,0 +1,98 @@
+Brownian Motion (space & time):
+
+Reduced Constraint SDP:
+    Safe set:
+        x_lower = 0.0
+        x_upper = 1.0
+
+    Other params:
+        dt scale = dt
+        scs_eps = default
+        scale = default
+        iteration limit = 500K
+
+    Starting state: [0.5, 0.0]
+
+    Analytical: see Helmes
+
+    M = 8
+    1st moment: 
+        Minimization:   0.25000250052898626
+        Maximization:   0.2500053489490467      actual = 0.250000
+    
+    2nd moment: 
+        Minimization:   0.10416293055453123
+        Maximization:   0.10417987098723966     actual = 0.104167 
+    
+    3rd moment: 
+        Minimization:   0.06348420412254982
+        Maximization:   0.06434335728052946     actual = 0.063542
+    
+    4th moment: 
+        Minimization:   0.051315205264483625
+        Maximization:   0.05258053382725282     actual = 0.051525
+
+    5th moment: 
+        Minimization:   0.05132708799406819
+        Maximization:   0.06491038666630088     actual = 0.052208
+
+    6th moment: 
+        Minimization:   0.0586113011210737 
+        Maximization:   0.20669720092697502     actual = 0.063478
+
+
+
+    M = 14
+    1st moment: 
+        Minimization:   0.24998738168155885
+        Maximization:   0.24998977635005834     actual = 0.250000
+    
+    2nd moment: 
+        Minimization:   0.10414964305157137                                  
+        Maximization:   0.1041789729756251      actual = 0.104167
+    
+    3rd moment: 
+        Minimization:   0.06344485649198661
+        Maximization:   0.0635650308097666      actual = 0.063542
+    
+    4th moment: 
+        Minimization:   0.05134804665956715
+        Maximization:   0.05155094358039217     actual = 0.051525
+
+    5th moment: 
+        Minimization:   0.05185428020303512
+        Maximization:   0.05232814081114369     actual = 0.052208
+
+    6th moment: 
+        Minimization:   0.06247751274320851
+        Maximization:   0.0638684443064591      actual = 0.063478
+
+        
+
+Original Constraint SDP:
+    Same system parameters
+
+    M = 8
+    1st moment: 
+        Minimization:   0.24998651094607985
+        Maximization:   0.2500281738339186      actual = 0.250000
+    
+    2nd moment: 
+        Minimization:   0.10410459675003718
+        Maximization:   0.10420764699639988     actual = 0.104167
+    
+    3rd moment: 
+        Minimization:   0.06339435244018699
+        Maximization:   0.06389165944812238     actual = 0.063542
+    
+    4th moment: 
+        Minimization:   0.04487168111434758
+        Maximization:   0.0668953614636435      actual = 0.051525
+
+    5th moment: 
+        Minimization:   0.03459845159966044
+        Maximization:   0.30625921029531616     actual = 0.052208
+
+    6th moment: 
+        Minimization:   0.029106701392754727
+        Maximization:   DNC                     actual = 0.063478

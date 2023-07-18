@@ -1,0 +1,15 @@
+For both params we see a p safety score of around 0.58 (0.578366 and 0.575633 respectively). 
+Here we define p-safety slightly differently and consider the points where the probability of reaching the unsafe
+set is exactly equation to p (0.58). Our unsafe set is anything outside of [1,10] and we consider a time limit 
+of 2 (T=2) when calulating p-safety. While both intitial conditions have the same p-safety, they diff in their exit
+time distributions. Through our SDP formulation, params1 has first and second moments: 1.955 and 4.172. Params2 has:
+2.147 and 5.634. While they have similar first moments, params2 has noticeably higher second moment indicating a 
+larger spread of the exit time distribution. Due to their similar first moments, this indicates that the second set
+of parameters may possess increased mass at lower exit times and thus suggests the system may be more susceptible to
+unsafe behaviour. 
+
+The histograms of exit times obtained through monte carlo simulation supports this. We see a concentration of mass 
+in very low exit times in params2. This is supported by the increased magnitude of the noise component in 
+params2. The larger weight means that initially, the system has a higher opportunity to exit through the "upper end"
+of the safe set (i.e. x > 10). We note that the system naturally decays to a mean at 0 over time and thus the system 
+only possess a high chance of exit from the upper end at the beginning. 

@@ -1,0 +1,234 @@
+Parabola safe set:
+-3.18 + 3.85x1 - x1^2 >= 0
+
+System dynamics:
+F_d = kc*velocity
+
+Num iterations = 500000
+Maximizations: 
+	M20: 4.217128902834266
+		 optimal
+		 end time: 11295.060240030289
+Minimizations:
+	M20: 5.0427083409565
+		 optimal
+		 end time: 9788.378335237503
+
+
+Num iterations = 3000000
+Maximizations:
+	M118: 31.681281380509347
+		  optimal
+		  end time: 3707.8903663158417
+	M151: 26.51135848702141
+		  optimal
+		  end time: 9746.781491994858
+	M229: 7.943503867842883
+		  optimal
+	      end time: 7699.401504039764
+	M323: 4.691693605916898
+		  optimal
+		  end time: 30559.94827222824
+Minimizations:
+	M118: 4.179635362477661
+		  optimal
+		  end time: 614.178359746933
+	M151: 4.604076736482724
+		  optimal
+		  end time: 747.4515616893768
+	M229: 6.347107304794481
+		  optimal
+	      end time: 7182.52179646492
+	M323: 3.9404968680037804
+		  optimal
+		  end time: 28026.216983556747
+
+
+##################################################################
+
+Parabola safe set:
+-2.35 + 3.35x1 -x^2 >= 0
+
+Monte Carlo Simulatio:
+mean ets: 5.462899333333357 
+var ets: 21.750463921367253
+
+
+System dynamics:
+F_d = kc*velocity*position
+
+Num iterations = 3000000
+Maximizations:
+	M118: 18.721581959296103
+		  optimal
+		  end time: 678.213906288147
+	M188: 11.759345427840275
+		  optimal
+		  end time: 835.7671709060669
+	M229: 6.367928813782298
+		  optimal
+		  end time: 847.454104423523
+	M230: 5.081155187800759
+		  optimal
+		  end time: 1510.5338780879974
+	M231: 3.99379017545804
+		  optimal
+		  end time: 2240.8945338726044
+	M274: 3.662921544059796
+		  optimal
+		  end time: 2526.875848054886
+	M376: 2.682411174590981
+		  optimal
+		  end time: 17904.826807260513
+
+
+
+Minimizations:
+	M118: 2.2716161797288774
+		  optimal
+		  end time: 220.5047628879547
+	M188: 4.391381270871048
+		  optimal
+		  end time: 1375.8208570480347
+	M229: 5.336621096229011
+		  optimal
+		  end time: 938.433287858963
+	M230: 5.852022831630761
+		  optimal
+		  end time: 1947.0390315055847
+	M231: 5.269092092226425
+		  optimal
+		  end time: 2240.5915098190308
+	M274: 4.656367743644821
+		  optimal
+		  end time: 1730.3470957279205
+	M376: 5.201560305960409
+		  optimal
+		  end time: 6696.840931892395
+	M494: 4.865748943462759
+		  optimal
+		  end time: 84747.82828497887
+
+
+
+
+
+
+1.7395631096230726 4-3 M42
+1.843382347044375  4-4 M43
+1.844367446384949  4-4 M44
+2.1663716226101326 5-4 M45
+2.1663716226101326 5-4 M46
+2.0495088739651885 5-4 M47
+2.1007801310669616 5-4 M50
+1.9907171766716867 5-4 M63
+2.6863643511619704 8-7 M120
+
+
+
+
+############ higher order moments #############
+Degree 2:
+	Maximizations:
+		M147 4-3: 85.35939964411268
+				  optimal
+				  end time: 732.1596446037292
+		M165: 15.849450390943874
+			  optimal_inaccurate
+			  end time: 10131.394977331161
+		M195: 20.397245326455785
+			  optimal
+			  end time: 28842.81490302086
+		M260: 15.616734533378438
+			  optimal
+			  end time: 2993.417225122452
+		M264 5-4: 15.622041700943894
+				  optimal
+				  end time: 2921.777887582779
+		M451 6-6: 11.405786923167009
+				  optimal_inaccurate
+				  end time: 66201.4263560772
+		M650 7-6: 
+		M651 7-7: 7.667188566272134
+				  optimal_inaccurate
+				  end time: 168965.37672376633
+	Minimizations:
+		M147 4-3: 4.155342712649455
+				  optimal
+				  end time: 30.32166838645935
+		M264 5-4: 9.153004684898352
+				  optimal
+				  end time: 2213.3699538707733
+		M451 6-6: 11.427573866302808
+			      optimal_inaccurate
+			      end time: 66524.95966649055
+		M650 7-6: 
+		M651 7-7: 5.768403637229238
+				  optimal_inaccurate
+				  end time: 169690.85358047485
+
+
+
+
+Degree 1:
+	Minimizations: 7.023894167103887
+				   optimal_inaccurate
+				   end time: 7219.871186494827
+
+Degree 2:
+	Minimizations: 32.130291533754445
+				   optimal_inaccurate
+				   end time: 7236.1874351501465
+
+
+
+
+
+
+
+
+
+ACC 10 with time dimension:
+############ higher order moments #############
+Degree 1:
+	Minimizations:
+	M150: 14.437601320612858
+		  optimal_inaccurate
+		  end time: 43689.837258815765
+
+
+Degree 2:
+	Minimizations:
+	M150: 216.42203775572145
+		  optimal_inaccurate
+		  end time: 43804.45678853989
+
+
+
+
+
+
+ACC 5 with time dimension:
+Degree 1:
+	Minimizations:
+	M120: 14.441982336613359	(100M itrs)
+		  optimal_inaccurate
+		  end time: 65507.70381855965
+		  (After additional 100M iters with 0 acc)
+		  14.46179394364455
+		  optimal_inaccurate
+		  end time: 33114.62520956993
+
+
+
+
+Degree 2:
+	Minimizations:
+	M120: 200.6524786446191		(100M itrs)
+		  optimal_inaccurate
+		  end time: 65554.01454949379
+		  (After additional 100M iters with 0 acc)
+		  193.01809909233583
+		  optimal_inaccurate
+		  end time: 32298.152827739716
+

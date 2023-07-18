@@ -1,0 +1,222 @@
+################### 6 Dimensional system #####################
+
+Circular safe set: -41+10x+10y-x^2-y^2 >= 0
+starting_state = [5,5,1.0,0.0,math.cos(1),math.sin(1)]
+Solver iterations: 20000
+M=8
+
+Maximization: 
+Status: Solved/Inaccurate
+Hit max_iters, solution may be inaccurate, returning best found solution.
+Timing: Solve time: 8.13e+02s
+	Lin-sys: nnz in L factor: 1936733, avg solve time: 5.59e-03s
+	Cones: avg projection time: 3.13e-02s
+	Acceleration: avg step time: 3.58e-07s
+----------------------------------------------------------------------------
+Error metrics:
+dist(s, K) = 4.8784e-05, dist(y, K*) = 2.4748e-09, s'y/|s||y| = -1.1892e-14
+primal res: |Ax + s - b|_2 / (1 + |b|_2) = 4.3860e-04
+dual res:   |A'y + c|_2 / (1 + |c|_2) = 1.9397e-04
+rel gap:    |c'x + b'y| / (1 + |c'x| + |b'y|) = 3.3444e-02
+----------------------------------------------------------------------------
+c'x = -8.2491, -b'y = -7.6828
+============================================================================
+/home/peter/.local/lib/python3.6/site-packages/cvxpy/problems/problem.py:1061: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+  "Solution may be inaccurate. Try another solver, "
+8.24909829207392
+optimal_inaccurate
+end time: 3842.1820180416107
+
+
+Minimization:
+Status: Solved/Inaccurate
+Hit max_iters, solution may be inaccurate, returning best found solution.
+Timing: Solve time: 8.07e+02s
+	Lin-sys: nnz in L factor: 1936733, avg solve time: 5.48e-03s
+	Cones: avg projection time: 3.12e-02s
+	Acceleration: avg step time: 3.86e-07s
+----------------------------------------------------------------------------
+Error metrics:
+dist(s, K) = 4.7504e-05, dist(y, K*) = 2.5044e-09, s'y/|s||y| = -9.6491e-14
+primal res: |Ax + s - b|_2 / (1 + |b|_2) = 4.3913e-04
+dual res:   |A'y + c|_2 / (1 + |c|_2) = 1.9440e-04
+rel gap:    |c'x + b'y| / (1 + |c'x| + |b'y|) = 3.0358e-02
+----------------------------------------------------------------------------
+c'x = 8.5486, -b'y = 9.1152
+============================================================================
+/home/peter/.local/lib/python3.6/site-packages/cvxpy/problems/problem.py:1061: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+  "Solution may be inaccurate. Try another solver, "
+8.548575285340133
+optimal_inaccurate
+end time: 3808.4029819965363
+
+
+
+
+
+
+
+
+
+Num iterations = 5000
+Maximizations: 
+	M4: 9.10063992929682
+		optimal_inaccurate
+		end time: 10.721800327301025
+	M5: 10.924200338775128
+		optimal_inaccurate
+		end time: 12.456585168838501
+	M6: 6.643801587073174
+		optimal_inaccurate
+		end time: 130.5782687664032
+	M7: 6.5033569579737724
+		optimal_inaccurate
+		end time: 141.32228708267212
+	M8: 4.745577746293448
+		optimal_inaccurate
+		end time: 1414.2110555171967
+
+Minimizations:
+	M4: 5.962786619800438
+		optimal_inaccurate
+		end time: 11.055473566055298
+	M5: 4.094539074605545
+		optimal_inaccurate
+		end time: 13.089556694030762
+	M6: 6.565300946876268
+		optimal_inaccurate
+		end time: 136.2109751701355
+	M7: 6.562451519027357
+		optimal_inaccurate
+		end time: 135.78017687797546
+	M8: 5.663180570992763
+		optimal_inaccurate
+		end time: 1420.5550129413605
+
+
+
+
+
+Num iterations = 100000
+Maximizations: 
+	M5: 12.615116974394056
+		optimal
+		end time: 164.36722898483276
+
+Minimizations:
+	M5: 7.064975606025202
+		optimal
+		end time: 97.25715517997742
+
+
+
+
+Num iterations = 200000
+Maximizations: 
+	M4: 12.615116974394056 *500000 itersations for maximization
+		optimal
+		end time: 319.9290807247162
+
+Minimizations:
+	M4: 8.092263642881939
+		optimal
+		end time: 262.6491069793701
+
+Num iterations = 250000
+Maximizations:
+	M8: 14.753082387952226
+		optimal_inaccurate
+		end time: 29365.23884153366
+
+		
+Num iterations = 500000
+Maximizations:
+	M6: 10.055830794063729
+		optimal_inaccurate
+		end time: 10252.255409002304
+	M7: 10.062150795286634
+		optimal_inaccurate
+		end time: 10932.286489486694
+
+Minimizations:
+	M6:	10.042804772237417
+		optimal_inaccurate
+		end time: 10263.45537519455
+	M7:
+
+
+Num iterations = 1000000
+Maximizations:
+	M6: 10.291679113265728
+		optimal_inaccurate
+		end time: 20503.567098617554
+	M7: 10.288648445433795
+		optimal
+		end time: 18127.9343354702
+	M8: 
+
+Minimizations:
+	M6: 10.271251020518472
+		optimal_inaccurate
+		end time: 20504.63261628151
+	M7: 10.217462042593654
+		optimal
+		end time: 12974.794795274734
+
+
+
+################### 5 Dimensional system #####################
+Num iterations = 20000
+Maximizations:
+	M4: 
+	M8: 12.313987894764447
+		optimal_inaccurate
+		end time: 1264.2179307937622
+
+Minimizations:
+	M10: memory usage (~3gb for matrices, 7gb for cvx)
+		26.771347085326777
+		optimal_inaccurate
+		end time: 7428.557187080383
+
+
+Num iterations = 200000
+Minimizations:
+	M4:	8.112436399355136
+		optimal
+		end time: 152.830468416214
+
+Num iterations = 250000
+Maximizations: 
+	M10: 
+Minimizations:
+	M10: 18.224988243297407
+		optimal
+		end time: 64989.04229259491
+
+
+
+
+M10 metadata:
+Number of moment matrices: 6
+Time to create moment matrix: 0.004445314407348633
+Time to create mm constraints: 46.9066047668457
+Number of localising matrices: 5
+Time to create localising matrix: 0.0009217262268066406
+Time to create lm constraints: 33.67021918296814
+Num martingale constraints: 3003
+Time to create martingale constraints: 2.0505335330963135
+Objective minimize var0[0]
+Time to create objective: 4.649162292480469e-05
+Time to create problem object: 0.009564876556396484
+----------------------------------------------------------------------------
+	SCS v2.1.2 - Splitting Conic Solver
+	(c) Brendan O'Donoghue, Stanford University, 2012
+----------------------------------------------------------------------------
+Lin-sys: sparse-direct, nnz in A = 813963
+eps = 1.00e-04, alpha = 1.50, max_iters = 20000, normalize = 1, scale = 1.00
+acceleration_lookback = 10, rho_x = 1.00e-03
+Variables n = 119012, constraints m = 340467
+Cones:	primal zero / dual free vars: 227461
+	sd vars: 113006, sd blks: 27
+Setup time: 1.01e+00s

@@ -1,0 +1,55 @@
+Spring Mass Damper:
+
+Reduced Constraint SDP:
+    System parameters:
+        ks = 5.
+        ms = 1.
+        kc = 1.
+
+    Safe set:
+        x_lower = -2.0
+        x_upper = 0.0
+
+    Other params:
+        T = 5.
+        dt scale = 0.1*dt
+        scs_eps = 1e-3
+        scale = 10
+
+    ALL: max iter = 250K
+
+    Simulation: 
+        E[t] = 1.0018855
+
+    M = 4:
+        Maximization: Does not converge  *M=4 likely too small as equality constraint polynomial has term t^2x^2
+        Minimization = 0.020056459491408593         Runtime: 1.2804522514343262
+        Variables: 1206, Constraints 1013
+
+    M = 6:
+        Maximization = 4.864424713551277            Runtime: 572.982054233551                 
+        Minimization = 0.10669612228673539          Runtime: 14.532705068588257         Avg = 293.76
+        Variables: 8078, Constraints: 7446
+
+    M = 8:
+        Maximization = 2.9693966397442497           Runtime: 402.81128573417664
+        Minimization = 0.20143692979222408          Runtime: 246.17830514907837         Avg = 324.49
+        Variables: 40598, Constraints: 39263
+
+    M = 10:
+        Maximization = 1.1505727923584959           Runtime: 1570.4108321666718
+        Minimization = 0.6517583471013866           Runtime: 1467.339872598648          Avg = 1518.88
+        Variables: 164766, Constraints: 163906
+
+Original Constraint SDP:
+    Same system parameters
+
+    M = 4:
+        Maximization = 49.975455213683155           Runtime: 7.027685642242432
+        Minimization = 0.10522097022887475          Runtime: 2.841158628463745         Avg = 4.93
+
+    M = 6: Does not converge
+
+    M = 8: Does not converge
+
+    M = 10: Does not converge
